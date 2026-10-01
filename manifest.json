@@ -1,0 +1,342 @@
+{
+  "run_id": "20261001T102518Z",
+  "generated_utc": "2026-10-01T10:44:19.979050+00:00",
+  "country": {
+    "iso3": "NGA",
+    "name": "the Federal Republic of Nigeria",
+    "bbox": [
+      2.692612538038247,
+      4.270203986225056,
+      14.677967754208566,
+      13.885713987110876
+    ]
+  },
+  "provider": "gee",
+  "simulated_data": false,
+  "years": {
+    "baseline": 2015,
+    "endline": 2024,
+    "monthly": [
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "admin_levels": {
+    "ADM0": 1,
+    "ADM1": 37,
+    "ADM2": 774
+  },
+  "parameters": {
+    "NOISE_FLOOR": 0.25,
+    "URBAN_CORE": 10.0,
+    "TOPCODE_PCT": 99.9,
+    "POP_LIT_MIN": 1.0,
+    "TARGET_SCALE_M": 500,
+    "USE_TOPCODED": true,
+    "MASK_FLARES": true,
+    "FLARE_BUFFER_PX": 2,
+    "NOISE_SENSITIVITY": [
+      0.15,
+      0.25,
+      0.5
+    ],
+    "CHANGE_MIN_BASE_PCT": 10,
+    "MONTHLY_MIN_COVERAGE": 0.8,
+    "ALLOW_MIXED_PRODUCTS": false,
+    "OFFICIAL_STATS_LEVEL": "ADM1",
+    "VALIDATION_MIN_N": 20
+  },
+  "ntl_products": {
+    "2015": "NOAA/VIIRS/DNB/ANNUAL_V21 · average_masked",
+    "2024": "NOAA/VIIRS/DNB/ANNUAL_V22 · average_masked"
+  },
+  "ntl_product_families": {
+    "2015": "EOG VNL V2 annual (V2.1 / V2.2) · average_masked",
+    "2024": "EOG VNL V2 annual (V2.1 / V2.2) · average_masked"
+  },
+  "population_years": {
+    "2015": 2015,
+    "2024": 2020
+  },
+  "growth_method": "annual growth between the median of years 2015–2017 and that of years 2022–2024",
+  "trend_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "spatial_autocorrelation": {
+    "SoL growth (scenario E)": {
+      "I": 0.11646094564245499,
+      "p": 0.002,
+      "n": 700,
+      "n_eff": 554,
+      "expected": -0.001430615164520744
+    },
+    "Elasticity residuals (scenario A)": {
+      "I": 0.4617565481213651,
+      "p": 0.002,
+      "n": 726,
+      "n_eff": 267,
+      "expected": -0.001379310344827586
+    },
+    "Light per capita (scenario D)": {
+      "I": 0.3520814244020243,
+      "p": 0.002,
+      "n": 774,
+      "n_eff": 371,
+      "expected": -0.00129366106080207
+    }
+  },
+  "values_used": "values top-coded at percentile 99.9",
+  "topcode_value": 251.8123016357422,
+  "flare_masking": {
+    "masked_pixels": 1580,
+    "applied": true,
+    "sol_removed": {
+      "2015": {
+        "sol": 154558.609375,
+        "share_of_national": 0.40699545364924306
+      },
+      "2024": {
+        "sol": 85464.7578125,
+        "share_of_national": 0.29732880263522815
+      }
+    }
+  },
+  "monthly_quality": {
+    "dropped": 281,
+    "rescaled": 546,
+    "min_coverage": 0.8
+  },
+  "electrification_range": [
+    135638736.0,
+    143921872.0
+  ],
+  "artefacts": {
+    "2015": {
+      "pixels": 1440465,
+      "share_below_noise_floor": 0.967228637974543,
+      "share_lit": 0.03277136202545706,
+      "share_urban_core": 0.0028789314561617255,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p99": 2.796128511428833,
+      "p9999": 329.95953369140625,
+      "max": 8292.759765625,
+      "sol_share_top1pct_pixels": 0.9041123986244202,
+      "share_near_max": 6.942202691491984e-07,
+      "core_pop_per_pixel": 372.7427978515625
+    },
+    "2024": {
+      "pixels": 1440465,
+      "share_below_noise_floor": 0.9621066808287602,
+      "share_lit": 0.03789331917123984,
+      "share_urban_core": 0.002558895912083945,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p99": 3.042897939682007,
+      "p9999": 229.45828247070312,
+      "max": 2723.58740234375,
+      "sol_share_top1pct_pixels": 0.8341971039772034,
+      "share_near_max": 6.942202691491984e-07,
+      "core_pop_per_pixel": 1053.39697265625
+    }
+  },
+  "flare_candidates": {
+    "2015": [
+      {
+        "px": 30,
+        "peak": 8292.8,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1074,
+        "col": 553
+      },
+      {
+        "px": 31,
+        "peak": 5458.1,
+        "pop": 3264,
+        "pop_per_px": 105.3,
+        "row": 884,
+        "col": 353
+      },
+      {
+        "px": 92,
+        "peak": 4729.1,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1074,
+        "col": 636
+      },
+      {
+        "px": 19,
+        "peak": 3691.1,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1067,
+        "col": 590
+      },
+      {
+        "px": 14,
+        "peak": 2427.5,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1061,
+        "col": 638
+      },
+      {
+        "px": 14,
+        "peak": 1954.4,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1076,
+        "col": 609
+      },
+      {
+        "px": 11,
+        "peak": 1717.5,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 917,
+        "col": 199
+      },
+      {
+        "px": 7,
+        "peak": 1466.5,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 956,
+        "col": 184
+      },
+      {
+        "px": 5,
+        "peak": 1178.4,
+        "pop": 366,
+        "pop_per_px": 73.3,
+        "row": 916,
+        "col": 422
+      },
+      {
+        "px": 3,
+        "peak": 932.3,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1046,
+        "col": 214
+      }
+    ],
+    "2024": [
+      {
+        "px": 7,
+        "peak": 2723.6,
+        "pop": 450,
+        "pop_per_px": 64.3,
+        "row": 940,
+        "col": 461
+      },
+      {
+        "px": 13,
+        "peak": 2656.4,
+        "pop": 2407,
+        "pop_per_px": 185.2,
+        "row": 890,
+        "col": 263
+      },
+      {
+        "px": 12,
+        "peak": 2626.6,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 1074,
+        "col": 553
+      },
+      {
+        "px": 7,
+        "peak": 2152.9,
+        "pop": 1178,
+        "pop_per_px": 168.3,
+        "row": 938,
+        "col": 309
+      },
+      {
+        "px": 8,
+        "peak": 2040.8,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 917,
+        "col": 199
+      },
+      {
+        "px": 12,
+        "peak": 1808.1,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 948,
+        "col": 273
+      },
+      {
+        "px": 8,
+        "peak": 1718.1,
+        "pop": 1091,
+        "pop_per_px": 136.4,
+        "row": 884,
+        "col": 353
+      },
+      {
+        "px": 7,
+        "peak": 1577.8,
+        "pop": 2078,
+        "pop_per_px": 296.8,
+        "row": 878,
+        "col": 322
+      },
+      {
+        "px": 13,
+        "peak": 1316.9,
+        "pop": 0,
+        "pop_per_px": 0.0,
+        "row": 934,
+        "col": 265
+      },
+      {
+        "px": 4,
+        "peak": 1083.0,
+        "pop": 369,
+        "pop_per_px": 92.2,
+        "row": 893,
+        "col": 292
+      }
+    ]
+  },
+  "verdict": "experimental",
+  "verdict_basis": "Lit area vs population density",
+  "verdict_reasons": [
+    "no independent official statistic: the correlation with population is a consistency check, not a validation"
+  ],
+  "validation_level": "ADM1",
+  "best_spearman": 0.8563300142247511,
+  "spearman_ci_low": 0.7320812220034033,
+  "software": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "geopandas": "1.1.4",
+    "rasterio": "1.5.1"
+  },
+  "licences": {
+    "boundaries": "geoBoundaries gbOpen, CC BY 4.0",
+    "population": "WorldPop, CC BY 4.0",
+    "ntl": "VIIRS / NASA Black Marble — US Government work, attribution requested",
+    "code": "MIT",
+    "derived_data": "CC BY 4.0"
+  }
+}

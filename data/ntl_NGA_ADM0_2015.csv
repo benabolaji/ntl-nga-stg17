@@ -1,0 +1,2 @@
+shapeID,name,area_km2,n_pixels,sol,rad_km2,sol_per_km2,mean_rad,median_rad,p90_rad,max_rad,lit_area_km2,lit_share,core_area_km2,core_share,pop,pop_inhabited,pop_lit,pop_dark,pop_lit_share,pop_density,sol_per_capita,gini_pixels,gini_pop_light,cv_rad,sol_share_nat,pop_share_nat,light_pop_ratio
+39225661B33378512450279,the Federal Republic of Nigeria,912368,932278,166987,164705,0.183026,0.179117,0,0,251.812,39245.4,0.0430149,2774.93,0.00304146,1.85206e+08,1.85206e+08,6.33448e+07,1.21861e+08,0.342024,202.995,0.000901626,0.986822,0.861295,18.1295,1,1,1
